@@ -42,4 +42,9 @@ Follow the prompts for each selection. You can add patients, view or treat patie
 hospital status, advance time, and trigger helicopter pickups when available. 
 The menu will continue to display after each action until you choose to exit the application. 
 
+## Project Layout
+Patient - defines patient data and priority comparison logic 
+FieldHospital - manages the queue, capacity, time tracking, and helicopter system
+Main Method - handles user interaction through a console-based menu and runs optional built-in tests at startup
+
 
