@@ -1,6 +1,8 @@
 # ZombieTriage
-This is a Java application that simulates a zombie apocalypse field hospital triage system. Patients are prioritized
-using a PriorityQueue so that the least severe patients are handled first. If two patients have the same severity, 
+This is a java application that can be used in the scenario in which you need to solve a triage problem by utilizing utilitarianism.
+
+## Scenario 
+Patients are prioritized using a PriorityQueue so that the least severe patients are handled first. If two patients have the same severity, 
 the one who arrived earlier is treated first. The hospital also includes a helicopter evacuation system that arrives
 every 12 hours and can transport up to 5 patients at a time. 
 
