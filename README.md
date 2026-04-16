@@ -7,16 +7,16 @@ every 12 hours and can transport up to 5 patients at a time.
 ## Triage Rules
 Patients are assigned a priority tier based on the seriousness of their condition. Lower ranks are seen sooner. If two patients
 have the same priority rank, the patient who was admitted earlier is treated first. 
-Rank 1: Recently infected/very low severity
-Rank 2: Mildly wounded
-Rank 3: Minor illness or cuts
-Rank 4: Moderate injury
-Rank 5: Stable but needs treatment
-Rank 6: Serious injury
-Rank 7: Severe infection or trauma
-Rank 8: Critical condition
-Rank 9: Extremely critical condition 
-Rank 10: Most severe condition in the queue
+- Rank 1: Recently infected/very low severity
+- Rank 2: Mildly wounded
+- Rank 3: Minor illness or cuts
+- Rank 4: Moderate injury
+- Rank 5: Stable but needs treatment
+- Rank 6: Serious injury
+- Rank 7: Severe infection or trauma
+- Rank 8: Critical condition
+- Rank 9: Extremely critical condition 
+- Rank 10: Most severe condition in the queue
 
 
 ## Requirements
