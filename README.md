@@ -3,8 +3,7 @@ This is a java application that can be used in the scenario in which you need to
 
 ## Scenario 
 Patients are prioritized using a PriorityQueue so that the least severe patients are handled first. If two patients have the same severity, 
-the one who arrived earlier is treated first. The hospital also includes a helicopter evacuation system that arrives
-every 12 hours and can transport up to 5 patients at a time. 
+the one who arrived earlier is treated first. The hospital also includes a helicopter evacuation system that arrives every 12 hours and can transport up to 5 patients at a time. 
 
 ## Triage Rules
 Patients are assigned a priority tier based on the seriousness of their condition. Lower ranks are seen sooner. If two patients
@@ -20,6 +19,12 @@ have the same priority rank, the patient who was admitted earlier is treated fir
 - Rank 9: Extremely critical condition 
 - Rank 10: Most severe condition in the queue
 
+## Structure Reasoning
+The application uses a PriorityQueue to efficiently manage patients so that those with the lower
+priority ranks are treated first. Patients are compared based on priority rank, with 
+ties broken by earliest arrival time to ensure fairness. The system is structured around seperate
+classes to handle patient data, hospital operations, and time-based helicopter 
+pickups, making it organized and scalable. 
 
 ## Requirements
 Java 17 or recent
