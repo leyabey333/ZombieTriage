@@ -25,7 +25,7 @@ Java 17 or recent
 ## Build Instructions 
 ```
 To build: javac -d out src/*.java
-To run: java -cp out TriageApp
+To run: java -cp out JavaTriageApp
 ```
 ## Using the App
 On launch, the application will print a menu of options to console. Input the number associated with the desired
